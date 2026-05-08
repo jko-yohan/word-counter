@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter - Free Online Word & Character Counter</title>
+    <meta name="description" content="Free online word counter tool. Count words, characters, sentences, and paragraphs instantly. Track reading and speaking time.">
+    <meta name="keywords" content="word counter online, character counter, word count tool, letter counter, text counter">
+    <link rel="canonical" href="https://jko-yohan.github.io/word-counter/">
+    <meta property="og:title" content="Word Counter - Free Online Word & Character Counter">
+    <meta property="og:description" content="Count words, characters, sentences, and paragraphs instantly online.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jko-yohan.github.io/word-counter/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4754582635962628" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Word Counter</h1>
+        <p class="subtitle">Count words, characters, sentences & paragraphs</p>
+    </header>
+    <main>
+        <div class="stats-bar">
+            <div class="stat"><span id="words" class="stat-value">0</span><span class="stat-label">Words</span></div>
+            <div class="stat"><span id="characters" class="stat-value">0</span><span class="stat-label">Characters</span></div>
+            <div class="stat"><span id="characters-no-space" class="stat-value">0</span><span class="stat-label">No Spaces</span></div>
+            <div class="stat"><span id="sentences" class="stat-value">0</span><span class="stat-label">Sentences</span></div>
+            <div class="stat"><span id="paragraphs" class="stat-value">0</span><span class="stat-label">Paragraphs</span></div>
+            <div class="stat"><span id="reading-time" class="stat-value">0s</span><span class="stat-label">Reading</span></div>
+            <div class="stat"><span id="speaking-time" class="stat-value">0s</span><span class="stat-label">Speaking</span></div>
+        </div>
+        <textarea id="text-input" placeholder="Start typing or paste your text here..." spellcheck="false"></textarea>
+        <div class="toolbar">
+            <button id="btn-clear" class="btn">Clear</button>
+            <button id="btn-copy" class="btn">Copy</button>
+            <button id="btn-uppercase" class="btn">UPPER</button>
+            <button id="btn-lowercase" class="btn">lower</button>
+            <button id="btn-titlecase" class="btn">Title Case</button>
+        </div>
+
+        <section class="info-section">
+            <h2>Online Word Counter Tool</h2>
+            <p>Word Counter is a free online tool that instantly counts words, characters (with and without spaces), sentences, and paragraphs in your text. It also estimates reading time (based on 275 WPM) and speaking time (based on 150 WPM). Perfect for essays, blog posts, social media, and more.</p>
+            <h2>Features</h2>
+            <ul>
+                <li>Real-time word, character, sentence, and paragraph counting</li>
+                <li>Reading and speaking time estimation</li>
+                <li>Text case conversion (uppercase, lowercase, title case)</li>
+                <li>Works entirely in your browser</li>
+            </ul>
+        </section>
+
+        <div class="ad-placeholder">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4754582635962628"
+                 data-ad-slot=""
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </main>
+    <footer>
+        <p>All processing runs locally in your browser. No data is sent to any server.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
